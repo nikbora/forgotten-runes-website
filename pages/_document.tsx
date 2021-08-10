@@ -25,6 +25,10 @@ export default class MyDocument extends Document {
           `
             }}
           />
+          {/* Loadong OSD here as its the simplest way with old plugins */}
+          <script src="/static/scripts/openseadragon.js"/>
+          <script src="/static/scripts/openseadragon-canvas-overlay.js"/>
+          <script src="/static/scripts/viewerinputhook.js"/>
         </Head>
         <body>
           <Main />
