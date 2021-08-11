@@ -22,13 +22,14 @@ export default class MyDocument extends Document {
             gtag('config', '${GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
-          `
+          `,
             }}
           />
-          {/* Loadong OSD here as its the simplest way with old plugins */}
-          <script src="/static/scripts/openseadragon.js"/>
-          <script src="/static/scripts/openseadragon-canvas-overlay.js"/>
-          <script src="/static/scripts/viewerinputhook.js"/>
+          {/* Loading OSD here as its the simplest way with old plugins */}
+          {/* TODO: only do this if page is gallery perhaps */}
+          <script src="/static/scripts/openseadragon.js" />
+          <script src="/static/scripts/openseadragon-canvas-overlay.js" />
+          <script src="/static/scripts/viewerinputhook.js" />
         </Head>
         <body>
           <Main />
