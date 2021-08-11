@@ -66,8 +66,5 @@ export default function Book({ wizardId, page }: Props) {
     );
   };
 
-  return (
-    <BookWrapper>
-    </BookWrapper>
-  );
+  return <BookWrapper></BookWrapper>;
 }
