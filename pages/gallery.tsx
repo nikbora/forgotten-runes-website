@@ -7,7 +7,7 @@ const WizardMapLeaflet = dynamic(
   { ssr: false }
 );
 
-const WizardGalleryPage = ({}) => {
+const WizardGalleryPage = () => {
   return (
     <Layout title="Forgotten Runes Wizard's Cult: 10,000 on-chain Wizard NFTs">
       <WizardMapLeaflet />
